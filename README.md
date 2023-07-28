@@ -27,7 +27,7 @@ I infact edited the ruotes so that all public traffic would be directed to the i
 The last thing to setup was the security group, which acts as a virtual firewall.
 ![sG](https://github.com/PartySlayer/dockerWebserver/assets/120326157/8d65a103-a2f7-485c-9166-fbe350623d4f)
 
-I made sure to filter inbound traffic.
+It would filter inbound traffic.
 ![sG1](https://github.com/PartySlayer/dockerWebserver/assets/120326157/7c2fcc77-848c-4f58-80bd-c1e25b25b10b)
 
 Finally I could start launching an EC2 istance.
@@ -42,6 +42,6 @@ The server was up and running at this point.
 
 After copying the private key on my VM I changed the .pem file permissions so that user/owner could only read and group and other could do nothing.
 Finally, the server was reachable via ssh.
-![launch3](https://github.com/PartySlayer/dockerWebserver/assets/120326157/73af41a4-71fa-4a8a-b812-39b114f28802)
+![launch3](https://github.com/PartySlayer/dockerWebserver/assets/120326157/62b4fcb4-cafc-4dd4-a63f-a71a21d556b2)
 
 
