@@ -2,10 +2,8 @@
 
 Phase 1 of the Infrastructure Automation project
 
-The core skill trained in this phase is AWS networking.
-This phase is about launching an EC2 instance in a VPC.
-
-The core skill trained is AWS networking.
+The core skills trained are AWS networking, and docker.
+This phase is about launching a simple containerized webserver on a EC2 istance. 
 
 I started creating a new VPC on AWS, using IPv4 CIDR 10.1.0.0/16.
 ![VPC](https://github.com/PartySlayer/dockerWebserver/assets/120326157/d2d06284-4a28-464e-bd0c-7abbcfa1def4)
