@@ -58,5 +58,11 @@ After installing git I was lacking the auth key so I used scp from local to send
 ![docker3](https://github.com/PartySlayer/dockerWebserver/assets/120326157/f8c651be-32c1-4a5a-849b-10119f23a6b2)
 ![docker4](https://github.com/PartySlayer/dockerWebserver/assets/120326157/54380290-ded3-4dc4-9076-26ccc3e71c3d)
 
-Finally I built the server image.
+Then I could build the server image.
 ![docker5](https://github.com/PartySlayer/dockerWebserver/assets/120326157/7f7f68b1-1503-4124-8d66-d57b8ee58557)
+
+After doing so, it was time to run the webserver and test if it was reachable.
+![docker6](https://github.com/PartySlayer/dockerWebserver/assets/120326157/eca29da4-4e66-467c-a24c-9cb03531c50b)
+
+I had to change the security group to allow traffic on the required port, finally the webpage showed!
+![docker7](https://github.com/PartySlayer/dockerWebserver/assets/120326157/d0a55a38-9226-49b8-8e0b-7bda2c728f0a)
