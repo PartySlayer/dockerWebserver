@@ -42,4 +42,21 @@ After copying the private key on my VM I changed the .pem file permissions so th
 Finally, the server was reachable via ssh.
 ![launch3](https://github.com/PartySlayer/dockerWebserver/assets/120326157/62b4fcb4-cafc-4dd4-a63f-a71a21d556b2)
 
+Now I could run a containerized nginx on it using docker.
+To do so we need to build a docker image.
 
+After creating a homepage for the site, I had to create a dockerfile.
+I did this on my vm in order to economize AWS resources.
+I used this repository to exchange files between local and EC2 istance.
+![git](https://github.com/PartySlayer/dockerWebserver/assets/120326157/5645d5d2-8bc4-47d7-8eb2-a6e0e693e52b)
+
+Switching to the EC2, I installed docker using yum repos and started it.
+![docker1](https://github.com/PartySlayer/dockerWebserver/assets/120326157/49db021a-bdac-4a1a-b347-60280e1b6a2f)
+![docker2](https://github.com/PartySlayer/dockerWebserver/assets/120326157/d8eeee82-bf0d-4440-b48a-62820138b7bf)
+
+After installing git I was lacking the auth key so I used scp from local to send it there.
+![docker3](https://github.com/PartySlayer/dockerWebserver/assets/120326157/f8c651be-32c1-4a5a-849b-10119f23a6b2)
+![docker4](https://github.com/PartySlayer/dockerWebserver/assets/120326157/54380290-ded3-4dc4-9076-26ccc3e71c3d)
+
+Finally I built the server image.
+![docker5](https://github.com/PartySlayer/dockerWebserver/assets/120326157/7f7f68b1-1503-4124-8d66-d57b8ee58557)
